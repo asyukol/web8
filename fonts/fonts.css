@@ -1,0 +1,91 @@
+@font-face
+ {
+    font-family: 'Uni Sans Heavy Caps';
+    src: local('Uni Sans Heavy Caps'), local('UniSansHeavyCaps'), url('unisansheavycaps.woff2') format('woff2'), url('unisansheavycaps.woff') format('woff'), url('unisansheavycaps.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face
+ {
+    font-family: 'Uni Sans';
+    src: url('Uni Sans.ttf')
+}
+@font-face
+ {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('Robotolight.woff2') format('woff2'), url('Robotolight.woff') format('woff'), url('Robotolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+.fat
+{
+	font-family: 'Uni Sans Heavy Caps';
+}
+.norm
+{
+	font-family: 'Uni Sans';
+}
+.roboto
+{
+	font-family: 'Roboto';
+}
+p
+{
+	margin: 0;
+}
+h1
+{
+	font-family: 'Uni Sans Heavy Caps';
+	margin: 0;
+}
+h2
+{
+	font-family: 'Uni Sans Heavy Caps';
+	color:#57c4ca;
+	margin: 0;
+}
+.cyan
+{
+	color: #57c4ca;
+}
+.white
+{
+	color: #b5b5b5;
+}
+.blue
+{
+	color: #587b9b;
+}
+.black
+{
+	color: #323232;
+}
+li, li a
+{
+	color: #323232;
+}
+.string_menu p
+{
+	font-size: 10px;
+}
+.string_menu h1
+{
+	font-size: 30px;
+}
+
+.string_menu_element p
+{
+	font-size: 10px;
+	text-align: center;
+	font-family: 'Uni Sans'
+}
+.slider_wrap p
+{
+	color: #c1c0ae;
+	margin-left: 337px;
+}
+.find_out
+{
+	font-family: 'Uni Sans Heavy Caps';
+	font-weight: 300;
+}

@@ -1,0 +1,89 @@
+
+header
+{
+	height: 70px;
+}
+#logo
+{
+	width: 110px;
+	height: 30px;
+}
+#menu
+{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul
+{
+	list-style: none;
+	display: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.text
+{
+	margin-left: 244px;
+}
+#baba_s_telekom
+{
+	background-image:url(img/baba_s_telekom.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+.nav_element
+{
+	height: 60px;
+	margin-bottom: 10px;
+}
+.nav_pic
+{
+	width: 60px;
+	height: 60px;
+}
+.string_menu
+{
+	margin-left: 337px;
+}
+.string_menu_element
+{
+	margin-right:10px; 
+	margin-left:20px;
+	padding: 0;
+}
+.string_menu_pic
+{
+	width: 50px;
+	height: 50px;
+}
+.slider_wrap
+{
+background: rgb(207,207,193);
+background: linear-gradient(0deg, rgba(207,207,193,1) 0%, rgba(255,255,255,1) 41%, rgba(255,255,255,1) 59%, rgba(207,207,193,1) 100%);
+}
+.find_out
+{
+	text-decoration: none;
+	color: #fff;
+	background-color:
+	#f21f02;
+	text-align: center;
+	letter-spacing: .5px;
+	display: block;
+	font-size: 26px;
+	height: 50px;
+	line-height: 56px;
+	font-weight: 600;
+	border: none;
+	border-radius: 30px;
+	padding: 0 2rem;
+}
+
+footer
+{
+	background-color: #303030;
+}
+
