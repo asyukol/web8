@@ -5,8 +5,8 @@ $('.find_out').click(function() {
     let newname = localStorage.getItem('name');
     let newmail = localStorage.getItem('mail');
     let newcomment = localStorage.getItem('comment');
-    document.getElementById('form_name').setAttribute('value', newname);
-    document.getElementById('form_mail').setAttribute('value', newmail); 
+    document.getElementById('form_name').value = newname;  
+    document.getElementById('form_mail').value = newmail;  
     document.getElementById('form_comment').value = newcomment;  
     history.pushState(null, '', '/form');
 }) 
