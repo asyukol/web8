@@ -1,4 +1,5 @@
 $('.find_out').click(function() {
+    history.pushState(null, '', '/form');
     $('.popup').show();
     $('.popup_bg').show();
     
@@ -7,13 +8,15 @@ $('.find_out').click(function() {
     let newcomment = localStorage.getItem('comment');
     document.getElementById('form_name').value = newname;  
     document.getElementById('form_mail').value = newmail;  
-    document.getElementById('form_comment').value = newcomment;  
-    history.pushState(null, '', '/form');
+    document.getElementById('form_comment').value = newcomment;    
 }) 
 $('.popup_bg').click(function() { 
     $('.popup_bg, .popup').hide();
     history.back();
 })
+window.onpopstate = function(event) {
+    $('.popup_bg, .popup').hide();
+}
 function remember() {
     let name = document.getElementById('form_name').value; 
     let mail = document.getElementById('form_mail').value;
