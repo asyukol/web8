@@ -6,7 +6,7 @@
     font-style: normal;
 }
 @font-face
- {
+{
     font-family: 'Uni Sans';
     src: url('Uni Sans.ttf')
 }
@@ -89,3 +89,9 @@ li, li a
 	font-family: 'Uni Sans Heavy Caps';
 	font-weight: 300;
 }
+.popup p
+{
+	color: #b5b5b5;
+	font-family: 'Uni Sans';
+}
+
